@@ -1,0 +1,391 @@
+body{
+	padding: 0;
+	margin: 0;
+	font-family: 'Poppins', sans-serif;
+}
+
+/* Estilos para el header */
+
+.menu{
+	background: white;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	z-index: 9999;
+}
+
+.contenedor{
+	max-width: 1300px;
+	width: 90%;
+	margin: auto;
+}
+
+.menu-principal{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+ul{
+	list-style: none;
+}
+
+.menu-principal ul{
+	display: flex;
+}
+
+.menu-principal ul li{
+	padding: 0 20px;
+
+}
+
+a{
+	text-decoration: none;
+}
+
+.menu-principal ul li a{
+	color: black;
+}
+
+header .logo{
+	font-size: 23px;
+	font-weight: bold;
+}
+
+.titulos{
+	display: flex;
+}
+
+.titulo h1{
+ 	color: white;
+ 	font-size: 70px;
+ 	letter-spacing: 25px;
+ 	font-family: 'Playfair Display';
+ 	font-weight: normal;
+ 	margin-top: 60px; 
+}
+
+.titulo h2{
+	color: #bfbfbf;
+	font-weight: normal;
+	font-size: 18px;
+	width: 60%;
+	line-height: 35px;
+	margin: auto;
+}
+
+#titulos{
+	background: url(../img/back.jpg);
+	text-align: center;
+	height: 60vh;
+	background-size: cover;
+	background-position: 57% 48%;
+	margin-top: 75px;
+}
+
+#titulos .botones{
+	padding: 25px;
+}
+
+#titulos .botones a{
+	margin-right: 20px;
+	padding: 10px 25px;
+}
+
+#titulos a.view-menu{
+	color: white;
+	border: 1px solid white;
+	background: none;
+}
+
+#titulos a.reservation{
+	color: white;
+	background: #c39d63;
+}
+
+/* Estilos para la sección nuestra historia */
+
+#our-story{
+	padding-top: 90px;
+}
+
+#our-story .our-story{
+	display: flex;
+	justify-content: center;
+}
+
+#our-story .titulo-story{
+	color: #bfbfbf;
+	letter-spacing: 2px;
+	font-weight: 700;
+}
+
+hr{
+	width: 50px;
+	float: left;
+	border-color: #c29d63;
+}
+
+#our-story h2, #testimonios h2{
+	margin-top: 50px;
+	font-size: 48px;
+	font-family: 'Playfair Display';
+	font-weight: 300;
+}
+
+#our-story .info, #testimonios .texto{
+	font-size: 17px;
+	color: gray;
+	line-height: 30px;
+	width: 88%;
+}
+
+#our-story .izquierda{
+	width: 45%;
+}
+
+/*#our-story img{
+	height: 100%;
+	width: 100%;
+}*/
+
+
+/*Estilos para la sección de la carta del restaurant */
+
+#carta-restaurant{
+	background: #1f1f1f;
+	margin-top: 90px;
+}
+
+#carta-restaurant .foto{
+	background: url(../img/cangrejo.png);
+	width: 300px;
+	height: 285px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#carta-restaurant .linea1 div, #carta-restaurant .linea2 div{
+	display: inline-block;
+	width: 33.1%;
+}
+
+#carta-restaurant .linea1, #carta-restaurant .linea2{
+	background: white;
+	text-align: center;
+}
+
+#carta-restaurant ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#carta-restaurant .precio{
+	color: #c09d62;
+	font-size: 24px;
+	margin-bottom: 15px;
+} 
+
+#carta-restaurant .titulo{
+	font-family: 'Playfair Display';
+	font-size: 24px;
+	font-weight: 100;
+} 
+
+#carta-restaurant .info-carta{
+	color: #939393;
+	line-height: 30px;
+	margin-top: 20px;
+}
+
+#carta-restaurant .hongos{
+	background: url(../img/hongos.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	top: -11px;
+	left: -14px;
+
+}
+
+#carta-restaurant .pez{
+	background: url(../img/pez.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	top: -11px;
+	right: -14px;
+}
+
+#carta-restaurant .contenedor{
+	max-width: 1130px;
+}
+
+#carta-restaurant .texto{
+	position: relative;
+	top: -30px;
+}
+
+#carta-restaurant .linea2{
+	height: 275px;
+}
+
+/*Estilos para la sección de testimonios */
+
+#testimonios{
+	text-align: center;
+	background: #f7f7f7;
+	padding: 90px 0;
+}
+
+#testimonios .titulo{
+	color: #bfbfbf;
+	letter-spacing: 2px;
+	font-weight: 700;
+}
+
+#testimonios hr{
+	width: 40px;
+	float: none;
+}
+
+#testimonios .testimonios{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+#testimonios .testimonio{
+	width: 25%;
+	text-align: left;
+}
+
+#testimonios img{
+	width: 55%;
+}
+
+#testimonios .contenedor{
+	max-width: 1150px;
+}
+
+/*Estilos para el footer */
+
+footer{
+	background: url(../img/restaurant.jpg);
+	color: white;
+	text-align: center;
+	padding: 90px 0;
+}
+
+footer .footer{
+	display: flex;
+	justify-content: center;
+}
+
+footer .izquierda, footer .derecha{
+	background: #1f1f1f;
+	padding: 80px 30px;
+	width: 35%;
+}
+
+footer .derecha{
+	padding: 100px 0px;
+	width: 40%;
+}
+
+footer .izquierda{
+	margin-right: 40px;
+}
+
+footer ul{
+	border-bottom: 2px solid #c09d62;
+	padding: 0;
+	margin: 0;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+}
+
+footer ul#tercero{
+	border-bottom: none;
+}
+
+footer ul li{
+	font-size: 15px;
+}
+
+footer h2{
+	font-family: 'Playfair Display';
+	font-size: 32px;
+	font-weight: 100;
+}
+
+footer ul li:first-child{
+	font-weight: bold;
+}
+
+footer a{
+	color: white;
+	padding: 10px;
+	background: #c39d63;
+	letter-spacing: 2px;
+	display: inline-block;
+	margin-top: 20px;
+}
+
+footer h3{
+	font-size: 23px;
+	font-weight: 100;
+	margin: 0;
+}
+
+footer .derecha p{
+	opacity: .8;
+	width: 70%;
+	margin: auto;
+}
+
+footer .derecha a{
+	padding: 10px 15px;
+}
+
+footer h3.news{
+	margin-top: 70px;
+}
+
+footer form{
+	margin-top: 25px;
+}
+
+input[type="text"], input[type="email"]{
+	width: 70%;
+	border: 0;
+	background: #171717;
+	padding: 15px;
+	font-size: 16px;
+	margin-bottom: 10px;
+	color: white;
+	outline: none;
+}
+
+::placeholder{
+	color: #CDCDCD;
+} 
+
+input[type="submit"]{
+	display: block;
+	width: 80%;
+	margin: auto;
+	border: 0;
+	background: #c29d63;
+	color: white;
+	padding: 10px 0;
+	font-size: 16px;
+}
+
+.menu-icon{
+	width: 32px;
+	height: 32px;
+	display: none;
+}
+

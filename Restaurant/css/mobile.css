@@ -1,0 +1,114 @@
+@media (max-width: 800px){
+	
+	/* Estilos para el header */
+	.menu-icon{
+		display: block;
+	}
+
+	header nav{
+		position: absolute;
+		top: 70px;
+		left: 0;
+		background: black;
+		width: 100%;
+		display: none;
+	}
+
+	.menu-principal ul{
+		display: block;
+	}
+
+	.menu-principal li{
+		margin-bottom: 15px;
+	}	
+
+	.menu-principal ul li a{
+		color: white;
+	}
+
+	header .logo{
+		font-size: 20px;
+	}
+
+	.titulos h1{
+		font-size: 35px;
+		letter-spacing: 3px;
+	}
+
+	.titulos h2{
+		font-size: 14px;
+		line-height: 30px;
+		width: 100%;
+	}
+
+	#titulos .botones a {
+   	 	margin-right: 15px;
+   		padding: 10px 15px;
+	}
+
+	/* Estilos para la sección de nuestra historia */
+	#our-story .our-story{
+		flex-direction: column;
+	}
+
+	#our-story .izquierda {
+    	width: 100%;
+	}
+
+	#our-story .info, #testimonios .texto{
+	    width: 100%;
+	}
+
+	.derecha img{
+		width: 100%;
+	}
+
+	/* Estilos para la sección de carta-menu */
+
+	#carta-restaurant .linea1 div, #carta-restaurant .linea2 div{
+    	display: block;
+    	width: 100%;
+	}
+
+	#carta-restaurant .texto{
+	    top: 0px;
+	}
+
+	.linea2 .hongos, .linea2 .pez{
+		width: 100% !important;
+		top: 0 !important;
+		left: 0 !important;
+	}
+
+	#carta-restaurant{
+		height: 1600px;
+	}
+
+	.linea2 .texto{
+		width: 100% !important;
+	}
+
+	#carta-restaurant .linea2{
+    	height: 550px;
+	}
+
+	#testimonios .testimonios{
+		flex-direction: column;
+	}
+
+	#testimonios .testimonio{
+		width: 100%;
+	}
+
+	footer .footer{
+		flex-direction: column;
+	}
+
+	footer .izquierda, footer .derecha{
+		width: 100%;
+		padding: 80px 0;
+		margin-top: 45px;
+	}
+
+
+}
